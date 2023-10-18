@@ -1,0 +1,27 @@
+
+body{
+  background-image: url(129109-white-abstract-background-2880x1800-windows.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h1
+{
+  color:#d65a84;
+
+}
+.container
+{
+    text-align: center;
+    z-index: 1;
+}
+button {
+  background-color: #d65a84;
+  color: white;
+cursor: pointer;
+}
+.login,.btn{
+    width:100px;
+    padding: 10px;
+color:wheat;
+text-decoration: none;
+}

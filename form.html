@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form js</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <form action="login.html" id="form">
+        <div class="container">
+          <div class="input-group">
+         
+          <h1 class="h1">Sign Up</h1>
+          
+          <label for="username"><b>UserName</b></label><br>
+          <input type="text"  id="username" placeholder="Enter user name" name="email" required>
+          <div class="error"></div>
+      <br>
+    
+      <div class="input-group">
+         
+          <label for="email"><b>Email</b></label><br>
+          <input type="text" id="email" placeholder="Enter Email" name="email" required>
+          <div class="error"></div>
+      <br></div>
+      <div class="input-group">
+          <label for="psw"><b>Password</b></label><br>
+          <input type="password"  placeholder="enter your password" id="password" name="psw" required>
+          <div class="error"></div>
+          <br></div>
+          <div class="input-group">
+          <label for="psw-repeat"><b>confirm Password</b></label><br>
+          <input type="password" placeholder="enter your confirm Password" id="cpassword" name="cpassword" required> 
+          <div class="error"></div>
+          <br>
+          </div>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+          <br>
+    
+          <button class="login"><a align="center" class="login" href="login.html">Login</a></button>
+            
+            <button type="submit" class="btn">submit</button>
+            
+          </div>
+        </div></div>
+      </form>
+      <script src="valiform.js" defer></script>
+</body>
+</html>

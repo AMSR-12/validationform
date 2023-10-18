@@ -1,0 +1,41 @@
+.h1
+{
+  color:#d65a84;
+
+}
+.container
+{
+    text-align: center;
+   
+    z-index: 1;
+}
+button {
+  background-color: #d65a84;
+  color: white;
+cursor: pointer;
+}
+
+.btn{
+    width:100px;
+    padding: 10px;
+
+}
+body{
+    background-image: url(download.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login
+{
+  text-decoration: none;
+  color:white;
+  font-size: larger;
+  border-radius: 10px;
+  border-color: aqua;
+}
+.btn{
+  font-size: larger;
+  border-radius: 10px;
+  border-color: aqua;
+  color:black;
+}
